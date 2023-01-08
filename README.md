@@ -1,5 +1,5 @@
 # KeyAuth Loader
-KeyAuth Loader that is written completely in Python. It allows for the developer to easily add their own program behind this loader using their KeyAuth.cc application.<br />
+KeyAuth Loader that is written completely in Python. It allows for the developer to easily add their own program behind this loader using their [KeyAuth.cc](https://keyauth.win) application.<br />
 # Usage
 Add all of the code inside of the application's folder, with your **main.py** being substituted for **app.py**.<br />
 In the main.py file you will need to replace **Line 38** and below with your own application's api.<br />
