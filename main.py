@@ -28,12 +28,14 @@ logo = """
 
 logo = Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter(logo))
 
+
 def getchecksum():
     md5_hash = hashlib.md5()
     file = open(''.join(sys.argv), "rb")
     md5_hash.update(file.read())
     digest = md5_hash.hexdigest()
     return digest
+
 
 keyauthapp = api(
     name = "name_here",
@@ -82,6 +84,7 @@ def block_dlls():
         except:
             pass
 
+
 if anti_debug_switch == True:
     try:
         b = threading.Thread(name='AntiDebug', target=block_debuggers)
@@ -105,6 +108,7 @@ else:
 
 
 def clear(): return os.system('cls' if os.name in ('nt', 'dos') else 'clear')
+
 
 def tui() -> None:
     clear()
