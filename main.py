@@ -36,9 +36,9 @@ def getchecksum():
     return digest
 
 keyauthapp = api(
-    name = "CSGO",
-    ownerid = "dUCgBf1ZGt",
-    secret = "143eac0f687b2b68cc864a2f6629b58db169a70876a05f60ffef8dfb5f6d918e",
+    name = "name_here",
+    ownerid = "ownerid_here",
+    secret = "secret_here",
     version = "1.0",
     hash_to_check = getchecksum()
 )
